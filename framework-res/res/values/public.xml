@@ -2328,7 +2328,6 @@
     <public type="id" name="find_next" id="0x01020423" />
     <public type="id" name="fontChange" id="0x01020424" />
     <public type="id" name="themeChange" id="0x01020425" />
-    <public type="id" name="unbounded" id="0x01020426" />
     <public type="style" name="Animation" id="0x01030000" />
     <public type="style" name="Animation.Activity" id="0x01030001" />
     <public type="style" name="Animation.Dialog" id="0x01030002" />
@@ -8570,6 +8569,4 @@
     <public type="^attr-private" name="cantSaveState" id="0x011600b8" />
     <public type="^attr-private" name="primaryUserOnly" id="0x011600b9" />
     <public type="^attr-private" name="needAccessControl" id="0x011600ba" />
-    <public type="^attr-private" name="layout_maxHeight" id="0x011600bb" />
-    <public type="^attr-private" name="layout_minHeight" id="0x011600bc" />
 </resources>
