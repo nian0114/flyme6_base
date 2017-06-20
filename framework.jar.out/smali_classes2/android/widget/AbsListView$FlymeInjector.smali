@@ -615,7 +615,7 @@
     if-nez v0, :cond_2
 
     .line 7741
-    invoke-static {p0}, Landroid/widget/AbsListView;->-get1(Landroid/widget/AbsListView;)Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/widget/AbsListView;->flymeGetFieldContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -675,7 +675,7 @@
     invoke-virtual {p0, v1}, Landroid/widget/AbsListView;->mzEnsureCheckRegion(Z)V
 
     .line 7993
-    invoke-static {p0}, Landroid/widget/AbsListView;->-get14(Landroid/widget/AbsListView;)I
+    invoke-virtual {p0}, Landroid/widget/AbsListView;->flymeGetFieldScrollY()I
 
     move-result v1
 
@@ -846,7 +846,7 @@
     const/4 v3, 0x0
 
     .line 7926
-    invoke-static {p0}, Landroid/widget/AbsListView;->-get14(Landroid/widget/AbsListView;)I
+    invoke-virtual {p0}, Landroid/widget/AbsListView;->flymeGetFieldScrollY()I
 
     move-result v1
 

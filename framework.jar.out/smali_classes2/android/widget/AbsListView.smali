@@ -19608,3 +19608,23 @@
     :cond_3
     return v2
 .end method
+
+.method flymeGetFieldContext()Landroid/content/Context;
+    .locals 1
+
+    .prologue
+    .line 7623
+    iget-object v0, p0, Landroid/widget/AbsListView;->mContext:Landroid/content/Context;
+
+    return-object v0
+.end method
+
+.method flymeGetFieldScrollY()I
+    .locals 1
+
+    .prologue
+    .line 7627
+    iget v0, p0, Landroid/widget/AbsListView;->mScrollY:I
+
+    return v0
+.end method
